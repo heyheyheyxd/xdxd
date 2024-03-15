@@ -35,7 +35,7 @@
         },
         {
          title: "Контакты",
-         href: "/contact",
+         href: "/contacts",
          isShow: true,
         },
         {
