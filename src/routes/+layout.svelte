@@ -21,17 +21,17 @@
     const nav = [
         {
             title: "О нас",
-            href: "/routes/blog",
+            href: "/blog",
             isShow: true,
         },
         {
             title: "Каталог",
-            href: "/routes/project",
+            href: "/project",
             isShow: true,
         },
         {
             title: "Контакты",
-            href: "/routes/contacts",
+            href: "/contacts",
             isShow: true,
         },
     ];
