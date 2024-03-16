@@ -23,11 +23,6 @@
 <script>
     const nav = [
         {
-            title: "Главная",
-            href: "/about",
-            isShow: true,
-        },
-        {
             title: "О нас",
             href: "/blog",
             isShow: true,
