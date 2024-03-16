@@ -2,12 +2,9 @@
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to home">Дмитрий Усимов</a>
         <div class="nav-links">
-            {#each nav as link}
-                {#if link.isShow}
-                    <a href={link.href} class="link">{link.title}</a>
-                    <span>&nbsp;&nbsp;&nbsp;</span>
-                {/if}
-            {/each}
+           <a href="/blog" class="link">О нас</a>
+           <a href="/blog" class="link">Каталог</a>
+           <a href="/blog" class="link">Контакты</a>
         </div>
     </div>
 </nav>
