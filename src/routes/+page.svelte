@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Магазин Дмитрия Усимова</title>
+    <title>Магазин Heyheyhey shop</title>
 </svelte:head>
 
 <div class="container">
@@ -9,7 +9,7 @@
                 <div class="info-text">
                     <h1>
                         <p class="animate-text-1">Добро пожаловать в магазин</p>
-                        <p class="text-2">Дмитрия Усимова</p>
+                        <p class="text-2">Heyheyhey shop</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
