@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to home">heyheyhey shop</a>
+        <a href="/" class="nav-logo" title="Back to home">Дмитрий Усимов</a>
         <div class="nav-links">
             {#each nav as link}
                 {#if link.isShow}
@@ -12,7 +12,13 @@
     </div>
 </nav>
 
-
+<div class="container">
+    <h1>Добро пожаловать в магазин Дмитрия Усимова!</h1>
+    <p>Мы рады приветствовать вас в нашем онлайн магазине, где вы можете найти широкий ассортимент качественных товаров по доступным ценам.</p>
+    <p>Мы гордимся нашими товарными предложениями и уверены, что вы сможете найти здесь что-то для себя или своих близких.</p>
+    <p>Мы постоянно обновляем наш ассортимент, чтобы предложить вам самые последние тренды и новинки рынка.</p>
+    <p>Не забудьте заглянуть в наш каталог товаров, чтобы увидеть все наши предложения!</p>
+</div>
 
 <script>
     const nav = [
@@ -40,6 +46,22 @@
 </script>
 
 <style>
+    .container {
+        max-width: 1400px;
+        margin: 50px auto;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #666;
+    }
 
     .nav-container {
         display: flex;
