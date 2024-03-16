@@ -1,12 +1,18 @@
 export const routes = [
     {
         id: 1,
-        title: 'My First Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: 'Новинки весенней коллекции: стильные обновления для вашего гардероба',
+        body: 'Откройте для себя последние тренды в мире моды с нашей новой весенней коллекцией. Мы представляем широкий ассортимент модных вещей для всех возрастов и стилей.',
+        image: 'spring_collection.jpg', // Путь к изображению для блог-поста
+        author: 'Анна Иванова', // Имя автора блог-поста
+        date: '10 марта 2024' // Дата публикации блог-поста
     },
     {
         id: 2,
-        title: 'My Second Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
-    },
+        title: 'Секреты успешных шопперов: как сэкономить на покупках и получить лучшие предложения',
+        body: 'Хотите узнать, как получить лучшие скидки и акции? В этом блог-посте мы поделимся с вами секретами успешных шопперов и поможем сэкономить на вашем следующем шоппинге.',
+        image: 'shopping_tips.jpg', // Путь к изображению для блог-поста
+        author: 'Михаил Петров', // Имя автора блог-поста
+        date: '3 апреля 2024' // Дата публикации блог-поста
+    }
 ];

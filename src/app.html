@@ -1,68 +1,86 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-		<style>
-			body {
-				background-position: left top;
-				font-family: 'Inter', sans-serif;
-				margin: 0;
-				background-repeat: no-repeat;
-			}
-	
-			* {
-				box-sizing: border-box;
-			}
-	
-			a {
-				text-decoration: none;
-				color: black;
-			}
-	
-			nav {
-				position: sticky;
-				top: 0;
-				left: 0;
-				right: 0;
-				margin: 0 80px 0 80px;
-				padding-top: 2rem;
-				padding-bottom: 2rem;
-			}
-	
-			nav .nav-container {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
-	
-			.nav-links {
-				display: flex;
-				justify-content: flex-end;
-				align-items: center;
-				margin: -1em 0;
-				flex: 1 0 auto;
-			}
-	
-			.nav-links .link {
-				position: relative;
-				margin: 1em;
-				font-size: 0.85rem;
-				letter-spacing: 1px;
-				color: black;
-			}
-	
-			.nav-logo {
-				position: relative;
-				line-height: 1;
-				font-size: 1.1rem;
-				color: black;
-			}
-		</style>
-	</body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Магазин товаров</title>
+    <link rel="icon" href="favicon.png" />
+    %sveltekit.head%
+</head>
+<body data-sveltekit-preload-data="hover">
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">Название магазина</div>
+            <div class="nav-links">
+                <a href="#" class="link">Главная</a>
+                <a href="#" class="link">Каталог</a>
+                <a href="#" class="link">Корзина</a>
+                <a href="#" class="link">О нас</a>
+                <a href="#" class="link">Контакты</a>
+            </div>
+        </div>
+    </nav>
+    <div style="display: contents">%sveltekit.body%</div>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+        }
+
+        .nav-links .link {
+            margin: 0 15px;
+            font-size: 1rem;
+            color: black;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links .link:hover {
+            color: #007bff;
+        }
+
+        .nav-logo {
+            line-height: 1;
+            font-size: 1.5rem;
+            color: black;
+        }
+    </style>
+</body>
 </html>
+

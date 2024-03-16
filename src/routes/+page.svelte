@@ -1,5 +1,5 @@
 <svelte:head>
-<title>Дмитрий Усимов</title>
+    <title>Магазин Дмитрия Усимова</title>
 </svelte:head>
 
 <div class="container">
@@ -8,18 +8,16 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                        <p class="animate-text-1">Lorem ipsum dolor sit,</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="animate-text-1">Добро пожаловать в магазин</p>
+                        <p class="text-2">Дмитрия Усимова</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut,
-                cupiditate dolores
-                    ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                    У нас вы найдете лучшие товары по выгодным ценам!
                 </h2>
                 <div style='color:black' class='scroll-button animate-scroll'>
-                <a href='/about'>Click here</a>
-                <div class='arrow'></div>
+                    <a href='/catalog'>Посмотреть каталог</a>
+                    <div class='arrow'></div>
                 </div>
             </div>
         </div>
@@ -45,7 +43,7 @@
 
     .container {
         max-width: 1400px;
-        margin: 50px 0 0 2.5rem;
+        margin: 50px auto;
     }
 
     .info h1 {
@@ -71,9 +69,10 @@
     }
     
     .background-div {
-        background-color: red;
+        background-color: #f8f9fa; /* Используем пастельный цвет фона */
         width: 100%;
         height: 56vh;
         margin: -160px auto;
     }
 </style>
+
