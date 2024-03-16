@@ -24,17 +24,17 @@
     const nav = [
         {
             title: "О нас",
-            href: "/blog",
+            href: "/routes/blog",
             isShow: true,
         },
         {
             title: "Каталог",
-            href: "/project",
+            href: "/routes/project",
             isShow: true,
         },
         {
             title: "Контакты",
-            href: "/contacts",
+            href: "/routes/contacts",
             isShow: true,
         },
     ];
@@ -91,4 +91,3 @@
         color: #007bff;
     }
 </style>
-
